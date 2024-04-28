@@ -10,8 +10,9 @@ from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
 from base64 import b64encode, b64decode
 import os
+from django.conf import settings
 
-ENCRYPTION_KEY = os.urandom(16)
+ENCRYPTION_KEY = settings.SECRET_KEY.encode()[:16]
 
 
 def encrypt_value(plaintext):
@@ -19,10 +20,12 @@ def encrypt_value(plaintext):
     padded_plaintext = pad(plaintext.encode(), AES.block_size)
     encrypted_bytes = cipher.encrypt(padded_plaintext)
     encrypted_value = b64encode(encrypted_bytes).decode('utf-8')
+    print(ENCRYPTION_KEY)
     return encrypted_value
 
 
 def decrypt_value(encrypted_value):
+    print(ENCRYPTION_KEY)
     cipher = AES.new(ENCRYPTION_KEY, AES.MODE_ECB)
     encrypted_bytes = b64decode(encrypted_value.encode('utf-8'))
     decrypted_padded_bytes = cipher.decrypt(encrypted_bytes)
