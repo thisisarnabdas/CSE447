@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Encrypted Post</title>
+</head>
+<body>
+    <h1>View Encrypted Post</h1>
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    <h2>Encrypted Post</h2>
+    <p><strong>Title:</strong> {{ encrypted_title }}</p>
+    <p><strong>Content:</strong> {{ encrypted_content }}</p>
+    <form method="post" action="{% url 'view_encrypted_post' %}">
+        {% csrf_token %}
+        <input type="hidden" name="show_decrypted" value="true">
+        <input type="submit" value="View Decrypted Post">
+    </form>
+    {% if show_decrypted %}
+        <h2>Decrypted Post</h2>
+        <p><strong>Title:</strong> {{ decrypted_title }}</p>
+        <p><strong>Content:</strong> {{ decrypted_content }}</p>
+    {% endif %}
+</body>
+</html>
