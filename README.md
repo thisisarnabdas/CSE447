@@ -20,6 +20,8 @@ A robust and secure web application built with Django.
 <p align="center">
   <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Python" width="200"/>
   <img src="https://www.djangoproject.com/m/img/logos/django-logo-negative.png" alt="Django" width="200"/>
+  <img src="https://www.sqlite.org/images/sqlite370_banner.gif" alt="SQLite" width="200"/>
+  <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png" alt="HTML5" width="100"/>
 </p>
 
 ## 📦 Installation
