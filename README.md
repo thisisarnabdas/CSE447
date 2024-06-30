@@ -58,5 +58,5 @@ If you have any questions or concerns, please open an issue or contact the maint
 
 ---
 
-Made with ❤️ and ☕ by Your Team Name
+Made with ❤️
    
