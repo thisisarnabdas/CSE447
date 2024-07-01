@@ -3,6 +3,12 @@
 <p align="center">
   <img src="https://www.djangoproject.com/m/img/logos/django-logo-negative.png" alt="Django" width="200"/>
 </p>
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/Django-3.2%2B-green?style=for-the-badge&logo=django)](https://www.djangoproject.com/)
+[![SQLite](https://img.shields.io/badge/SQLite-3-blue?style=for-the-badge&logo=sqlite)](https://www.sqlite.org/)
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
+
 
 A robust and secure web application built with Django.
 
