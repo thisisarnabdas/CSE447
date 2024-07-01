@@ -27,11 +27,11 @@ A robust and secure web application built with Django.
 ## 📦 Installation
 
 1. Clone the repository:
-   git clone https://github.com/thisisarnabdas/CSE447.git
+   'git clone https://github.com/thisisarnabdas/CSE447.git'
 2. Install dependencies:
-   pip install -r requirements.txt
+   'pip install -r requirements.txt'
 3. Start the development server:
-   python manage.py runserver
+   'python manage.py runserver'
 
 ## 🔒 Security Best Practices
 
@@ -56,7 +56,7 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ## 📞 Contact
 
-If you have any questions or concerns, please open an issue or contact the maintainers.
+If you have any questions or concerns, please open an issue or contact me(arnab.das@g.bracu.ac.bd).
 
 ---
 
