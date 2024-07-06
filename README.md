@@ -65,6 +65,8 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 If you have any questions or concerns, please open an issue or contact me(arnab.das@g.bracu.ac.bd).
 
 ---
-
-Made with ❤️
+<p align="center">
+  Made with ❤️ by ARNAB
+</p>
+```
    
