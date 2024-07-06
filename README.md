@@ -62,11 +62,12 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ## 📞 Contact
 
-If you have any questions or concerns, please open an issue or contact me(arnab.das@g.bracu.ac.bd).
+Arnab Das - arnab.das@g.bracu.ac.bd
+Project Link: https://github.com/thisisarnabdas/CSE447
 
 ---
 <p align="center">
   Made with ❤️ by ARNAB
 </p>
-```
+
    
